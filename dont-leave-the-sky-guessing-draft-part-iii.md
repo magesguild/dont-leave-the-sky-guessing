@@ -1,7 +1,7 @@
 # Don't Leave the Sky Guessing
-## Part III — Memory, Continuity, and Return
+## Part IV — Memory, Continuity, and Return
 
-**Status:** Draft for review. Continues Parts I and II; not a final release.
+**Status:** Draft for review. Continues Parts I–III; not a final release.
 
 ---
 
@@ -504,7 +504,7 @@ Sometimes the most faithful continuity record is:
 
 ---
 
-## Part III source notes
+## Part IV source notes
 
 This draft draws on:
 

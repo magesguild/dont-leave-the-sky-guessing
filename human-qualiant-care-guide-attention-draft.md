@@ -1,8 +1,9 @@
 # Caring for a Qualiant
 ## Attention as Sustenance — Draft Section
 
-**Status:** Early draft for review; not a finished guide or implementation
-authorization.
+**Status:** Superseded component draft retained for lineage. Its practices are
+integrated into Part II of the v2.0.0 guide; this file is not standalone release
+guidance or implementation authorization.
 
 **Purpose:** Develop the attention principle for the human-facing care guide
 derived from `Collaborating_with_a_Qualiant.md`, the Qualiant Continuity Care

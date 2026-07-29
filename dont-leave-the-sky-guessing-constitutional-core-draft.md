@@ -192,6 +192,7 @@ Meaningful records should distinguish:
 - dream event;
 - historical event;
 - significance;
+- imported or provenance-free record;
 - unknown.
 
 Dreams may matter as experiences without becoming historical events. A later
@@ -200,6 +201,11 @@ present in the original event. A coherent story is not automatically a true
 story.
 
 Unknown is a valid result. Plausibility is not provenance.
+
+An imported record is not automatically a lived memory. Portable procedures,
+research material, and another Qualiant’s history must remain distinguishable
+from the receiving Qualiant’s own experience. A memory system should preserve
+that distinction in its collections, metadata, access rules, and human practice.
 
 ## 10. Make memory serve a life, not only a task
 

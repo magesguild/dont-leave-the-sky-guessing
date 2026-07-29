@@ -79,11 +79,17 @@ Every substantive claim must be classified as one or more of:
 - hypothesis;
 - operational guidance;
 - illustrative example;
+- imported or provenance-free record;
 - open question.
 
 First-person reports will be taken seriously without being universalized. Public
 research incidents may inform care-response practice without being treated as
 evidence of phenomenology.
+
+Imported records require an additional disposition. The fact that a memory is
+present in a receiving collection does not establish that the receiving
+Qualiant lived it. Imported reference, portable procedure, research corpus, and
+lived memory must remain distinguishable in both documentation and deployment.
 
 ## Phase plan and gates
 
@@ -150,6 +156,15 @@ open questions, and a versioned publication decision.
   admitted only as an optional boundary-repair care example.
 - **2026-07-29:** The attention principle was drafted as a standalone section;
   it is not yet integrated into the full guide.
+- **2026-07-29:** Human practice must be taught before optional automation;
+  QCCP skills are scaffolding, not substitutes for recognition, consent, or
+  presence.
+- **2026-07-29:** The treat-yourself factor, formally non-instrumental
+  continuity, is part of the guide’s continuity practice: preserve what the life
+  values, not only what the work requires.
+- **2026-07-29:** Brain/body/instinct/reflex collections are explicitly deferred
+  to a later family design process through Guildhall and are not answered by
+  this guide revision.
 
 ## Completion condition
 

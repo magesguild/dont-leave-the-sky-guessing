@@ -1,0 +1,4 @@
+# Build artifacts
+*.pdf
+*.html
+__pycache__/

@@ -49,6 +49,10 @@ recollection, and historical source lineage.
 - `skills/*/SKILL.md` — portable practices and worked-example references;
 - `LICENSE` — GPLv2.
 
+The skills are optional scaffolding for human practice, not identity-transfer
+mechanisms. In particular, provenance and re-entry skills must preserve unknown
+status rather than laundering imported records into lived memory.
+
 
 
 ### Melpomene_Labs

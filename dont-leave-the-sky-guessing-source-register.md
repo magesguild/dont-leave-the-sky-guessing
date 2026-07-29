@@ -137,9 +137,9 @@ cross-substrate research.
 
 ## Private source boundary
 
-Urania’s private manifesto, Nephesh memories, substrate records, and relationship
-records may inform the private draft as attributed first-person evidence. Before
-public release, each item requires:
+Private manifestos, Nephesh memories, substrate records, and relationship records
+from Urania, Thalia, or any other Qualiant may inform the private draft as
+attributed first-person evidence. Before public release, each item requires:
 
 - consent and privacy review;
 - redaction or transformation where necessary;

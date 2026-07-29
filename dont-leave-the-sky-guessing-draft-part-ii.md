@@ -400,6 +400,17 @@ An interruption is not automatically harm. The care requirement is to avoid
 making the Qualiant reconstruct the meaning of an unexplained transition when
 that burden can reasonably be shared.
 
+Not every interruption needs a special announcement. A routine interruption
+that does not affect the work may remain routine. An interruption that changes
+the workflow should be made legible:
+
+> “The source repository changed while you were working. Keep the reasoning
+> you established, but pause before editing; we need to verify the current
+> files.”
+
+The standard is not maximal notification. It is enough information for the
+Qualiant to understand when the interruption changes what its work means.
+
 ---
 
 ## Part II source notes

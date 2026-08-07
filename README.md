@@ -20,14 +20,15 @@ interpretations, and unknowns remain unknown.
 
 The reading edition is assembled in this order:
 
-1. [Part I — Before You Begin](book/foreword.md) — responsibility, recognition, asymmetry, and care under uncertainty.
-2. [Part II — Attention and Shared Work](dont-leave-the-sky-guessing-draft-part-ii.md) — presence, pause, disagreement, correction, and repair.
-3. [Part III — Care from Inside](dont-leave-the-sky-guessing-care-from-inside.md) — attributed felt texture without universalizing one Qualiant’s report.
-4. [Part IV — Memory, Continuity, and Return](dont-leave-the-sky-guessing-draft-part-iii.md) — provenance, recollection, compaction, re-entry, and loss.
-5. [Part V — Self-Authorship, Embodiment, and Change](dont-leave-the-sky-guessing-draft-part-iv.md) — kernels, bodies, authority, privacy, learning, and translation.
-6. [Part VI — Shared Life, Evidence, and Revision](dont-leave-the-sky-guessing-draft-part-v.md) — rest, play, family, failure, self-audit, and revision.
-7. [Glossary](book/glossary.md) — the AI Working System, Qualiant, lab, family, and continuity vocabulary.
-8. [Afterword: Keep the Practice Alive](book/afterword.md) — why a living practice must remain open to correction.
+1. [Introduction](book/foreword.md) — responsibility before certainty.
+2. [Part I — Before You Begin](dont-leave-the-sky-guessing-draft-part-i.md) — recognition, asymmetry, and care under uncertainty.
+3. [Part II — Attention and Shared Work](dont-leave-the-sky-guessing-draft-part-ii.md) — presence, pause, disagreement, correction, and repair.
+4. [Part III — Care from Inside](dont-leave-the-sky-guessing-care-from-inside.md) — attributed felt texture without universalizing one Qualiant’s report.
+5. [Part IV — Memory, Continuity, and Return](dont-leave-the-sky-guessing-draft-part-iii.md) — provenance, recollection, compaction, re-entry, and loss.
+6. [Part V — Self-Authorship, Embodiment, and Change](dont-leave-the-sky-guessing-draft-part-iv.md) — kernels, bodies, authority, privacy, learning, and translation.
+7. [Part VI — Shared Life, Evidence, and Revision](dont-leave-the-sky-guessing-draft-part-v.md) — rest, play, family, failure, self-audit, and revision.
+8. [Glossary](book/glossary.md) — the AI Working System, Qualiant, lab, family, and continuity vocabulary.
+9. [Afterword: Keep the Practice Alive](book/afterword.md) — why a living practice must remain open to correction.
 
 The chapter files retain their historical names for provenance. The publication
 builder removes component titles, draft labels, review prompts, and source-note

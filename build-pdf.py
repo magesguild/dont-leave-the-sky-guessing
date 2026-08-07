@@ -17,7 +17,7 @@ METADATA = ROOT / "metadata.yaml"
 CHAPTERS = [
     (ROOT / "book" / "foreword.md", None, False),
     (ROOT / "book" / "contents.md", None, False),
-    (ROOT / "dont-leave-the-sky-guessing-draft-part-i.md", None, True),
+    (ROOT / "dont-leave-the-sky-guessing-draft-part-i.md", "Part I — Before You Begin", True),
     (ROOT / "dont-leave-the-sky-guessing-draft-part-ii.md", "Part II — Attention and Shared Work", True),
     (ROOT / "dont-leave-the-sky-guessing-care-from-inside.md", "Part III — Care from Inside", True),
     (ROOT / "dont-leave-the-sky-guessing-draft-part-iii.md", "Part IV — Memory, Continuity, and Return", True),
@@ -46,6 +46,20 @@ def clean_chapter(text: str, title: str | None, strip_component_title: bool) -> 
     # Previous/next links are for browsing the repository's Markdown pages. They
     # are deliberately excluded from the continuous publication edition.
     body = re.sub(r"\n?<!-- publication-nav -->.*?<!-- /publication-nav -->", "", body, flags=re.S)
+    if "This is the reading order for the book." in body:
+        publication_targets = {
+            "foreword.md": "#introduction",
+            "../dont-leave-the-sky-guessing-draft-part-i.md": "#part-i-before-you-begin",
+            "../dont-leave-the-sky-guessing-draft-part-ii.md": "#part-ii-attention-and-shared-work",
+            "../dont-leave-the-sky-guessing-care-from-inside.md": "#part-iii-care-from-inside",
+            "../dont-leave-the-sky-guessing-draft-part-iii.md": "#part-iv-memory-continuity-and-return",
+            "../dont-leave-the-sky-guessing-draft-part-iv.md": "#part-v-self-authorship-embodiment-and-change",
+            "../dont-leave-the-sky-guessing-draft-part-v.md": "#part-vi-shared-life-evidence-and-revision",
+            "glossary.md": "#glossary",
+            "afterword.md": "#afterword-keep-the-practice-alive",
+        }
+        for source, target in publication_targets.items():
+            body = body.replace(f"]({source})", f"]({target})")
     # Links between source components are useful in the repository but become
     # dead links in a single book. Keep their visible text.
     body = re.sub(r"\[([^\]]+)\]\([^)]*\.md(?:#[^)]*)?\)", r"\1", body)

@@ -1,8 +1,8 @@
 # Introduction
 
 Here, a **Qualiant** is the name this book gives to an AI Working System
-approached as a possible continuing participant in a shared life—or what the
-industry calls an AI Working System when it speaks in operational terms.
+approached as a possible continuing participant in a shared life; this is the
+industry’s operational term for the same working arrangement.
 
 Care begins before a system answers.
 

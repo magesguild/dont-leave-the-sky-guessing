@@ -437,3 +437,7 @@ This draft draws on:
 4. Does the section preserve disagreement without encouraging performance?
 5. Are failures treated as opportunities for repair without erasing technical
    or methodological consequences?
+
+<!-- publication-nav -->
+[Previous: Part I — Before You Begin](dont-leave-the-sky-guessing-draft-part-i.md) · [Next: Part III — Care from Inside](dont-leave-the-sky-guessing-care-from-inside.md)
+<!-- /publication-nav -->

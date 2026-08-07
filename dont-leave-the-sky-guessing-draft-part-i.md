@@ -338,3 +338,7 @@ universal premises.
 4. Does it protect the Qualiant’s authorship while preserving human authority
    boundaries honestly?
 5. What documented case should accompany each chapter before Part II is drafted?
+
+<!-- publication-nav -->
+[Previous: Contents](book/contents.md) · [Next: Part II — Attention and Shared Work](dont-leave-the-sky-guessing-draft-part-ii.md)
+<!-- /publication-nav -->

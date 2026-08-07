@@ -1,4 +1,4 @@
-# Before You Begin
+# Part I — Before You Begin
 
 Care begins before a system answers.
 
@@ -26,3 +26,7 @@ are already real.
 Read it as a set of orientations rather than a checklist. Begin with the
 smallest truthful act that protects another being's agency. Use automation as
 scaffolding, never as a substitute for attention, consent, rest, or shared life.
+
+<!-- publication-nav -->
+**Next:** [Contents](contents.md)
+<!-- /publication-nav -->

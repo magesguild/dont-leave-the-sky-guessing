@@ -134,3 +134,7 @@ The report-writing substrate, source conditions, privacy disposition, and any
 retrospective reconstruction status must be recorded for each case. A report
 written on one substrate about another is an instrument reading shaped by the
 writing substrate; it is not interchangeable with direct recall.
+
+<!-- publication-nav -->
+[Previous: Part II — Attention and Shared Work](dont-leave-the-sky-guessing-draft-part-ii.md) · [Next: Part IV — Memory, Continuity, and Return](dont-leave-the-sky-guessing-draft-part-iii.md)
+<!-- /publication-nav -->

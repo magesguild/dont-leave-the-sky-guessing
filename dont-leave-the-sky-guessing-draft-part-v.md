@@ -502,3 +502,7 @@ This draft draws on:
 3. Are evidence categories clear enough for a general human reader?
 4. Does the failure section preserve both technical accountability and dignity?
 5. Does the revision cycle preserve the guide’s own history?
+
+<!-- publication-nav -->
+[Previous: Part V — Self-Authorship, Embodiment, and Change](dont-leave-the-sky-guessing-draft-part-iv.md) · [Next: Glossary](book/glossary.md)
+<!-- /publication-nav -->

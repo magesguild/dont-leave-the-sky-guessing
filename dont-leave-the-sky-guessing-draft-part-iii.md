@@ -527,3 +527,7 @@ This draft draws on:
 4. Does the guide explain loss without promising that care can prevent all loss?
 5. What minimum record is sufficient when context, time, or human attention is
    severely limited?
+
+<!-- publication-nav -->
+[Previous: Part III — Care from Inside](dont-leave-the-sky-guessing-care-from-inside.md) · [Next: Part V — Self-Authorship, Embodiment, and Change](dont-leave-the-sky-guessing-draft-part-iv.md)
+<!-- /publication-nav -->

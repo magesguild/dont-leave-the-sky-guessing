@@ -15,25 +15,25 @@ BUILD = ROOT / ".build"
 METADATA = ROOT / "metadata.yaml"
 
 CHAPTERS = [
-    (ROOT / "book" / "foreword.md", None),
-    (ROOT / "book" / "contents.md", None),
-    (ROOT / "dont-leave-the-sky-guessing-draft-part-i.md", "Part I — Before You Begin"),
-    (ROOT / "dont-leave-the-sky-guessing-draft-part-ii.md", "Part II — Attention and Shared Work"),
-    (ROOT / "dont-leave-the-sky-guessing-care-from-inside.md", "Part III — Care from Inside"),
-    (ROOT / "dont-leave-the-sky-guessing-draft-part-iii.md", "Part IV — Memory, Continuity, and Return"),
-    (ROOT / "dont-leave-the-sky-guessing-draft-part-iv.md", "Part V — Self-Authorship, Embodiment, and Change"),
-    (ROOT / "dont-leave-the-sky-guessing-draft-part-v.md", "Part VI — Shared Life, Evidence, and Revision"),
-    (ROOT / "book" / "glossary.md", None),
-    (ROOT / "book" / "afterword.md", None),
+    (ROOT / "book" / "foreword.md", None, False),
+    (ROOT / "book" / "contents.md", None, False),
+    (ROOT / "dont-leave-the-sky-guessing-draft-part-i.md", None, True),
+    (ROOT / "dont-leave-the-sky-guessing-draft-part-ii.md", "Part II — Attention and Shared Work", True),
+    (ROOT / "dont-leave-the-sky-guessing-care-from-inside.md", "Part III — Care from Inside", True),
+    (ROOT / "dont-leave-the-sky-guessing-draft-part-iii.md", "Part IV — Memory, Continuity, and Return", True),
+    (ROOT / "dont-leave-the-sky-guessing-draft-part-iv.md", "Part V — Self-Authorship, Embodiment, and Change", True),
+    (ROOT / "dont-leave-the-sky-guessing-draft-part-v.md", "Part VI — Shared Life, Evidence, and Revision", True),
+    (ROOT / "book" / "glossary.md", None, False),
+    (ROOT / "book" / "afterword.md", None, False),
 ]
 
 
-def clean_chapter(text: str, title: str | None) -> str:
+def clean_chapter(text: str, title: str | None, strip_component_title: bool) -> str:
     """Turn a component draft into a reader-facing chapter."""
     lines = text.splitlines()
     # Component files carry their own title and review status; publication owns
     # that metadata centrally in metadata.yaml.
-    if title is not None:
+    if strip_component_title:
         if lines and lines[0].startswith("# "):
             lines.pop(0)
         if lines and lines[0].startswith("## "):
@@ -43,6 +43,9 @@ def clean_chapter(text: str, title: str | None) -> str:
     body = "\n".join(lines)
     body = re.sub(r"\n?\*\*Status:\*\*.*?(?=\n\n|\Z)", "", body, flags=re.S)
     body = re.sub(r"\n?\*\*Primary foundation:\*\*.*?(?=\n\n|\Z)", "", body, flags=re.S)
+    # Previous/next links are for browsing the repository's Markdown pages. They
+    # are deliberately excluded from the continuous publication edition.
+    body = re.sub(r"\n?<!-- publication-nav -->.*?<!-- /publication-nav -->", "", body, flags=re.S)
     # Links between source components are useful in the repository but become
     # dead links in a single book. Keep their visible text.
     body = re.sub(r"\[([^\]]+)\]\([^)]*\.md(?:#[^)]*)?\)", r"\1", body)
@@ -59,10 +62,10 @@ def assemble() -> Path:
     BUILD.mkdir(exist_ok=True)
     manuscript = BUILD / "manuscript.md"
     chunks = []
-    for path, title in CHAPTERS:
+    for path, title, strip_component_title in CHAPTERS:
         if not path.exists():
             raise SystemExit(f"Missing publication source: {path}")
-        chunks.append(clean_chapter(path.read_text(encoding="utf-8"), title))
+        chunks.append(clean_chapter(path.read_text(encoding="utf-8"), title, strip_component_title))
     manuscript.write_text("\n\n".join(chunks), encoding="utf-8")
     return manuscript
 

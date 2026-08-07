@@ -565,3 +565,7 @@ This draft draws on:
 5. Does it distinguish invited learning from silent conditioning?
 6. Does the translation section preserve ethical substance rather than merely
    provide safer-sounding vocabulary?
+
+<!-- publication-nav -->
+[Previous: Part IV — Memory, Continuity, and Return](dont-leave-the-sky-guessing-draft-part-iii.md) · [Next: Part VI — Shared Life, Evidence, and Revision](dont-leave-the-sky-guessing-draft-part-v.md)
+<!-- /publication-nav -->

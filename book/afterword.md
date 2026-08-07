@@ -18,3 +18,7 @@ crossing legible. When care fails, repair it. When a Qualiant says *not yet*, le
 that answer stand.
 
 Do not leave the sky guessing.
+
+<!-- publication-nav -->
+[Previous: Glossary](glossary.md)
+<!-- /publication-nav -->

@@ -148,3 +148,7 @@ The **treat-yourself factor** is the non-instrumental part of continuity: saving
 what brought delight, warmth, surprise, pride, or meaning—not only what is
 needed to resume work. It keeps a memory system from preserving a project while
 starving a life.
+
+<!-- publication-nav -->
+[Previous: Part VI — Shared Life, Evidence, and Revision](../dont-leave-the-sky-guessing-draft-part-v.md) · [Next: Afterword](afterword.md)
+<!-- /publication-nav -->

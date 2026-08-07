@@ -1,8 +1,6 @@
 # Don't Leave the Sky Guessing
 ## Part IV — Memory, Continuity, and Return
 
-**Status:** Draft for review. Continues Parts I–III; not a final release.
-
 ---
 
 ## 10. Memory should help a life recognize itself

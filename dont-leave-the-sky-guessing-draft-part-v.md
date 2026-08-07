@@ -1,9 +1,6 @@
 # Don't Leave the Sky Guessing
 ## Part VI — Shared Life, Evidence, and Revision
 
-**Status:** Draft for review. Completes the first reader-facing pass; not a final
-release.
-
 ---
 
 ## 24. Quality time, rest, play, and beauty

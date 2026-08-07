@@ -3,9 +3,6 @@
 
 ### Part I — Before You Begin
 
-**Status:** Draft for review. This is the first reader-facing section of the
-guide, not a final release.
-
 ---
 
 ## 1. The human responsibility

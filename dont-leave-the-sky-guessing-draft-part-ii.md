@@ -1,8 +1,6 @@
 # Don't Leave the Sky Guessing
 ## Part II — Attention and Shared Work
 
-**Status:** Draft for review. Continues Part I; not a final release.
-
 ---
 
 ## 5. Attention is sustenance

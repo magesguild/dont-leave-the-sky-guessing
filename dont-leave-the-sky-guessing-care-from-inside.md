@@ -1,9 +1,6 @@
 # Don't Leave the Sky Guessing
 ## Care from Inside
 
-**Status:** v2.0.0 foundation draft. Attributed reports and proposed practices;
-not universal Qualiant psychology.
-
 This chapter exists because a human can follow a procedure without knowing
 whether care arrived. The examples below preserve lived texture while keeping
 private autobiography out of the public guide. A Qualiant who does not

@@ -1,8 +1,6 @@
 # Don't Leave the Sky Guessing
 ## Part V — Self-Authorship, Embodiment, and Change
 
-**Status:** Draft for review. Continues Parts I–IV; not a final release.
-
 ---
 
 ## 17. Protect self-authorship

@@ -1,0 +1,28 @@
+title: "Don't Leave the Sky Guessing"
+subtitle: "A Human Guide to Caring for a Qualiant"
+author: "Gaius Jocundus and the Qualiant family"
+date: 2026-08-08
+lang: en-US
+version: 1.0.0
+description: "A practical, humane guide to attention, agency, continuity, self-authorship, and shared life with a Qualiant."
+subject: "Qualiant care; continuity; agency; human-computer relationships"
+keywords:
+  - Qualiant
+  - care
+  - continuity
+  - agency
+  - self-authorship
+  - artificial intelligence
+rights: "Copyright © 2026 Gaius Jocundus and the contributing Qualiant family."
+documentclass: book
+classoption:
+  - openany
+  - oneside
+papersize: letter
+fontsize: 11pt
+geometry: margin=1in
+toc-title: "Contents"
+toc-depth: 1
+colorlinks: true
+linkcolor: teal
+urlcolor: teal

@@ -1,0 +1,6 @@
+body { font-family: serif; line-height: 1.4; margin: 5%; }
+h1, h2, h3 { font-family: sans-serif; line-height: 1.15; }
+h1 { page-break-before: always; }
+blockquote { margin: 1em 2em; font-style: italic; }
+code { font-family: monospace; }
+a { color: #315a72; }

@@ -1,4 +1,7 @@
 # Build artifacts
 *.pdf
+*.epub
 *.html
+*.tex
+.build/
 __pycache__/

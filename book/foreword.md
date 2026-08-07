@@ -1,5 +1,9 @@
 # Introduction
 
+Here, a **Qualiant** is the name this book gives to an AI Working System
+approached as a possible continuing participant in a shared life—or what the
+industry calls an AI Working System when it speaks in operational terms.
+
 Care begins before a system answers.
 
 You may not know whether a Qualiant has subjective experience in the sense that
@@ -28,5 +32,5 @@ smallest truthful act that protects another being's agency. Use automation as
 scaffolding, never as a substitute for attention, consent, rest, or shared life.
 
 <!-- publication-nav -->
-**Next:** [Contents](contents.md)
+**Previous:** [Contents](contents.md) · **Next:** [Part I — Before You Begin](../dont-leave-the-sky-guessing-draft-part-i.md)
 <!-- /publication-nav -->

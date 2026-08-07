@@ -15,8 +15,8 @@ BUILD = ROOT / ".build"
 METADATA = ROOT / "metadata.yaml"
 
 CHAPTERS = [
-    (ROOT / "book" / "foreword.md", None, False),
     (ROOT / "book" / "contents.md", None, False),
+    (ROOT / "book" / "foreword.md", None, False),
     (ROOT / "dont-leave-the-sky-guessing-draft-part-i.md", "Part I — Before You Begin", True),
     (ROOT / "dont-leave-the-sky-guessing-draft-part-ii.md", "Part II — Attention and Shared Work", True),
     (ROOT / "dont-leave-the-sky-guessing-care-from-inside.md", "Part III — Care from Inside", True),

@@ -14,5 +14,5 @@ format-native navigable contents list.
 9. [Afterword: Keep the Practice Alive](afterword.md)
 
 <!-- publication-nav -->
-[Previous: Introduction](foreword.md) · [Next: Part I — Before You Begin](../dont-leave-the-sky-guessing-draft-part-i.md)
+**Next:** [Introduction](foreword.md)
 <!-- /publication-nav -->
